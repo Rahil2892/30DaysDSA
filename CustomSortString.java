@@ -4,7 +4,6 @@ class Solution {
     public String customSortString(String order, String s) {
 
         String res = new String();
-        String dum = new String();
         HashMap<Character,Integer> ct = new HashMap<>();
 
         for(int i=0; i<s.length(); i++){
