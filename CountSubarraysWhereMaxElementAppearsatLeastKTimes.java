@@ -1,5 +1,3 @@
-import java.util.*;
-
 class Solution {
     public long countSubarrays(int[] nums, int k) {
         long maxNum = Long.MIN_VALUE, count = 0;
